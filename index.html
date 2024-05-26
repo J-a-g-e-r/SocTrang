@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sóc Trăng</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="SaiGon.css">
+    <script src="bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid p-1" style="background-color: rgb(225, 151, 41); font-weight: bold; color: white;">
+        <div class="container">Thành Phố Sóc Trăng</div>
+    </div>
+
+    <div class="container-fluid ">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img src="data:image/png;base64,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" alt="" class="anhlogo1" align="center">
+                </div>
+                <div class="col-6 pt-5">
+                    <div id="menu">
+                        <ul>
+                            <li><a href="https://mynguyen133.github.io/TTCSN_GROUP2/"><b>Trang chủ</b></a></li>
+                            <li><a href="gioithieu.html"><b>Giới thiệu</b></a></li>
+                            <li><a href="Lien_He.html"><b>Liên hệ</b></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="anhthanhpho" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#anhthanhpho" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#anhthanhpho" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#anhthanhpho" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://sakos.vn/wp-content/uploads/2023/04/chua-som-rong.jpg" class="d-block"
+                    style="width:100%; height: 700px;">
+                <div class="carousel-caption">
+                    <h3>Sóc Trăng</h3>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://media-cdn-v2.laodong.vn/Storage/NewsPortal/2022/4/21/1036299/Thanh-Pho-Soc--Trang-01.jpg"
+                    class="d-block" style="width:100%; height: 700px;">
+                <div class="carousel-caption">
+                    <h3>Sóc Trăng</h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Th%C3%A0nh_ph%E1%BB%91_S%C3%B3c_Tr%C4%83ng._IMG.jpg"
+                    class="d-block" style="width:100%; height: 700px;">
+                <div class="carousel-caption">
+                    <h3>Tỉnh Sóc Trăng</h3>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nút sang bên trái -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#anhthanhpho" data-bs-slide="prev">
+            <div class="carousel-control-prev-icon"></div>
+        </button>
+        <!-- Nút sang bên phải -->
+        <button class="carousel-control-next" type="button" data-bs-target="#anhthanhpho" data-bs-slide="next">
+            <div class="carousel-control-next-icon"></div>
+        </button>
+    </div>
+    <div class="container4 mb-2 mt-4">
+        <div class="row">
+            <h1 align="center" style="color: coral; ;">Sóc Trăng</h1>
+            <p align="center" class="m-3"
+                style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: bold;">
+                
+Sóc Trăng là một tỉnh thuộc vùng đồng bằng sông Cửu Long ở miền Nam Việt Nam. Với biệt danh là "Thành phố Hoa vàng cỏ xanh", Sóc Trăng nổi tiếng với vẻ đẹp thiên nhiên hùng vĩ và đa dạng văn hóa của dân tộc. Tỉnh này có cảnh quan phong phú, từ những cánh đồng lúa xanh mướt, những con kênh rợp bóng cây dừa, đến những bãi biển cát trắng. Ngoài ra, Sóc Trăng còn là điểm đến thu hút du khách bởi văn hóa đa dạng, với các cộng đồng dân tộc Khmer, Hoa và người Kinh cùng sinh sống hòa mình trong một không gian văn hóa phong phú và đặc sắc. Du khách đến Sóc Trăng có thể tham quan các đền, chùa Khmer, thưởng thức ẩm thực đặc trưng và tham gia các lễ hội truyền thống đầy màu sắc.
+
+            </p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/B%C6%B0u_%C4%91i%E1%BB%87n_S%C3%B3c_Tr%C4%83ng.jpg"
+                class="mx-auto d-block rounded-circle" style="width:50%;margin-top:50px; margin-bottom: 50px;">
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: rgb(249, 241, 229);">
+        <h1 align="center" style="color: coral;padding-top: 20px ;"> DANH SÁCH MÓN ĂN NỔI TIẾNG Ở SÓC TRĂNG</h1>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-4 mb-2 mt-4">
+                <div class="card">
+                    <a href="caloc.html"><img class="card-img-top"
+                            src="https://d-annamtravel.com/static/media/S%C3%93C%20TR%C4%82NG/%C4%91%E1%BA%B7c%20s%E1%BA%A3n%20s%C3%B3c%20tr%C4%83ng/1040221.jpg"
+                            style="width:100%; height: 350px;"></a>
+                    <div class="card-body">
+                        <a style="text-decoration: none; color: coral; text-align: center;"
+                            href="caloc.html">
+                            <h3> CÁ LÓC CHÁO RAU ĐẮNG </h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-4 mb-2 mt-4">
+                <div class="card">
+                    <a href="bun.html"><img class="card-img-top"
+                            src="https://d-annamtravel.com/static/media/S%C3%93C%20TR%C4%82NG/%C4%91%E1%BA%B7c%20s%E1%BA%A3n%20s%C3%B3c%20tr%C4%83ng/4040221.jpg"
+                            style="width:100%; height: 350px;"></a>
+                    <div class="card-body">
+                        <a style="text-decoration: none; color: coral; text-align: center;"
+                            href="bun.html">
+                            <h3> BÚN GỎI DÀ </h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-4 mb-2 mt-4">
+                <div class="card">
+                    <a href="bunnuocleo.html"><img class="card-img-top"
+                            src="https://d-annamtravel.com/static/media/%E1%BA%A8m%20th%E1%BB%B1c%20B%E1%BA%A1c%20Li%C3%AAu/bn-nc-lo160120.jpg"
+                            style="width:100%; height: 350px;"></a>
+                    <div class="card-body">
+                        <a style="text-decoration: none; color: coral; text-align: center;"
+                            href="bunnuocleo.html">
+                            <h3> BÚN NƯỚC LÈO </h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-4 mb-2 mt-4">
+                <div class="card">
+                    <a href="banhpia.html"><img class="card-img-top"
+                            src="https://cdn3.ivivu.com/2023/04/banh-pia-soc-trang-ivivu-1024x823.jpeg"
+                            style="width:100%; height: 350px;"></a>
+                    <div class="card-body">
+                        <a style="text-decoration: none; color: coral; text-align: center;"
+                            href="banhpia.html">
+                            <h3> Bánh Pía </h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-4 mb-2 mt-4">
+                <div class="card">
+                    <a href="me.html"><img class="card-img-top"
+                            src="https://cdn3.ivivu.com/2023/04/m%C3%A8-l%C3%A1o-ivivu.jpg"
+                            style="width:100%; height: 350px;"></a>
+                    <div class="card-body">
+                        <a style="text-decoration: none; color: coral; text-align: center;"
+                            href="me.html">
+                            <h3>    Mè láo </h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-4 mb-2 mt-4">
+                <div class="card">
+                    <a href="bethui.html"><img class="card-img-top"
+                            src="https://cdn3.ivivu.com/2023/04/b%C3%AA-thui-1024x1024.jpg"
+                            style="width:100%; height: 350px;"></a>
+                    <div class="card-body">
+                        <a style="text-decoration: none; color: coral; text-align: center;"
+                            href="bethui.html">
+                            <h3> Bê thui Sóc Trăng</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+<script>

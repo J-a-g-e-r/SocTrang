@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>     Bánh pía    </title><style>
+        
+        #header img {
+            height:300px;
+            width:30%;
+            float:left;
+            display: flow-root;
+        }
+        #header h1 {
+            color: white;
+            font-size: 2vw;
+            font-size: 70px;
+            margin-top: 90px;
+            vertical-align: middle;
+        }
+        #header {
+              background: linear-gradient(-45deg, #0ef412, #e73c7e, #23a6d5, #23d5ab);
+              background-size: 400% 400%;
+              animation: gradient 10s ease infinite;
+              height:300px;
+              width: 100%;
+              display: flow-root;
+        }
+
+        @keyframes gradient { 
+           0% {
+              background-position: 0% 50%;
+                  }
+           50% {
+               background-position: 100% 50%;
+             }
+            100% {
+                background-position: 0% 50%;
+             }
+       }
+       body {
+        background-color: #e2f5e2;
+       }
+       @keyframes jump {
+           0% {
+           transform: translateY(0);
+             }
+           50% {
+              transform: translateY(-20px);
+             }
+           100% {
+           transform: translateY(0);
+          }
+       }
+
+        .text span {
+           display: inline-block;
+           animation: jump 1s infinite alternate; /* Hiệu ứng nhảy ngược và chuyển động lặp lại */
+        }
+
+       .text span {
+        font-size: 40px;
+        
+        color: #db4f09;
+       }
+       .image {
+        border-radius: 30%;
+        
+       }
+
+       #gioithieu  {
+        display: inline-flex; 
+        align-items: center; 
+       }
+       #gioithieu img {
+        margin-right: 10px;
+       }
+       #gioithieu p {
+        font-size: 25px;
+       }
+       #nguyenlieu p {
+        font-size: 25px;
+       }
+       #chebien p{
+        font-size: 25px;
+       }
+
+       #footer {
+        font-size: 25px;
+        color: rgb(16, 33, 215);
+        text-align: center;
+       }
+       @keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 2s linear infinite;
+}
+
+       
+
+       
+
+    </style>
+</head>
+<body>
+    <div id="header" align="center">
+        <img src="data:image/jpeg;base64,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">
+        <h1> Cách chế biến món " Bánh pía   " </h1>
+    </div>
+    <div class="text">
+        <span>GIỚI THIỆU VỀ MÓN ĂN</span>
+        </div>
+        <div id="gioithieu">
+            <img src="https://banhpiatanhuevien.vn/hinh/tintuc/Gioithieubp-3.jpg" class="image" alt="Your Image" width="30%">
+            <p>
+                Bánh pía Sóc Trăng là một trong những đặc sản nổi tiếng của miền Nam Việt Nam, đặc biệt là ở tỉnh Sóc Trăng. Bánh này được làm từ những nguyên liệu đơn giản như bột mì, đường, dầu ăn, một số loại nhân như đậu xanh, hành, thịt heo, và một số vị khác tùy theo khẩu vị và sở thích của người làm. Quy trình sản xuất bánh pía Sóc Trăng được thực hiện tỉ mỉ, từ việc chọn lựa nguyên liệu, trộn bột, nhồi nhân đến việc nướng và đóng gói.
+            </p>
+        </div>
+        <div class="text">
+            <span>NGUYÊN LIỆU</span>
+            </div>
+        <div id="nguyenlieu">
+            <p>
+                - Bột mì đa dụng 400gr<br>
+                - Đậu xanh 250gr<br>
+                - Đường cát trắng 300gr<br>
+                - Thịt sầu riêng 200gr<br>
+                - Nước lọc 220 ml<br>
+                - Bột năng 100gr<br>
+                - Mỡ lợn 300gr<br>
+                - Dầu thực vật 145 ml<br>
+                - Mạch nha 15gr<br>
+                - Trứng 12 quả<br>
+                - (lòng đỏ trứng muối)<br>
+                - Baking power 4gr(bột nở)<br>
+                - Màu đỏ thực phẩm 1/4 muỗng cà phê<br>
+                
+            </p>
+        </div>
+        <div class="text" align="center">
+            <span >CÁCH CHẾ BIẾN</span>
+        
+            </div>
+            <div id="chebien">
+                <p>
+                <i><b>Bước 1: làm nhân sầu riêng</b></i>  <br>  
+                -Đầu tiên ngâm lòng đỏ trứng muối vào 200ml rượu trắng. Sau đó rửa sạch mỡ heo để ráo. Lấy 200g thắng lấy nước mỡ, 100g thì luộc chín cắt hạt lựu và ướp với 50g đường. Đem hấp chín xay nhuyễn để làm nhân bánh pía.<br>
+                -Cho đậu xanh đã xay vào chảo chống dính xào với 100g đường. Thỉnh thoảng thêm 15ml dầu ăn. Đến lần thêm dầu thứ 4 khi bột dẻo quánh lại thì cho sầu riêng xay và mỡ heo ướp đường vào. Tiếp tục xào đến khi quyện lại thành hỗn hợp đồng nhất, để nguội là được nhân bánh pía.<br>
+
+                <i><b>Bước 2: làm vỏ bánh pía</b></i><br>
+                -Trộn đều 300g bột mì và 5g bột nở trong âu lớn. Thêm 40g đường, 50ml dầu ăn, 50ml mỡ nước và 120ml nước sạch. Sau đó nhào đều tay đến khi bột dẻo quyện vào nhau rồi để bột nghỉ khoảng 30 phút cho bột nở mềm để làm bột nước. Chia thành 12 phần đều nhau.<br>
+                -Bước tiếp theo của cách làm bánh pía tại nhà là trộn 100g bột mì, 100g bột năng. Cùng với 35ml dầu ăn, 35ml mỡ nước rồi nhào thành khối làm bột dầu. Chia khối bột thành 12 viên bằng nhau.<br>
+                -Ấn dẹp viên bột nước, đặt viên bột dầu lên rồi cán dẹp. Dùng đậu xanh bao kín 1 lòng đỏ trứng muối rồi đặt vào mỗi miếng bột. Tiếp theo bọc kín lại và nắn cho tròn tạo thành hình giống bánh pía. <br>
+
+                <i><b>Bước 3: nướng bánh</b></i><br>
+                -Xếp bánh vào khay nướng. Bật lò sẵn ở 220 độ C. Sau đó cho khay bánh pía vào và nướng trong 5 - 7 phút đến khi vỏ bánh hơi đục lại. <br>
+                -Bước cuối cùng của cách làm bánh pía sầu riêng là xăm vài chỗ trên mặt bánh để thoát khí. Tiếp theo dùng lòng đỏ trứng phết lên bánh. Cho vào lò nướng thêm 15 phút đến khi bánh vàng đều là được.<br>
+
+                </p>
+
+            </div>
+            <div id="footer">
+                <p class="blink">Chúc bạn thưởng thức mỗi miếng ăn với tất cả niềm đam mê và tình yêu dành cho nấu ăn.<br>
+                    Hãy tiếp tục khám phá và sáng tạo, bởi cuộc phiêu lưu ẩm thực không bao giờ kết thúc! </p><br>
+
+                    <strong> VNFoods.</strong>
+            </div>
+
+
+        
+    
+    
+</body>
+</html>
